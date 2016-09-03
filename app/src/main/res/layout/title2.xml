@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TextView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00C581"
+        android:text="注册"
+        android:drawableLeft="@drawable/arrow_left"
+        android:drawablePadding="15dp"
+        android:textSize="35dp"
+        android:paddingLeft="15dp"/>

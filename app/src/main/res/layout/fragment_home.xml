@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bihu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <!-- <include
+        android:id="@+id/in_de"
+        bihu:layout_width="match_parent"
+        android:layout_height="0dp"
+        bihu:layout_heightPercent="10%"
+        layout="@layout/title1"
+       />-->
+    <Button
+        android:id="@+id/in_de"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00C581"
+        android:text="登入"
+
+        bihu:layout_heightPercent="10%"
+        android:textSize="35dp"
+        android:gravity="center_horizontal"/>
+    <FrameLayout
+        android:layout_below="@+id/in_de"
+        android:id="@+id/fr_out"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        bihu:layout_heightPercent="50%"
+        android:layout_centerHorizontal="true"
+       >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e_home_girl_one"
+            android:layout_marginBottom="42dp"/>
+        <ImageView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/e_home_projection"
+            android:layout_gravity="bottom|center_horizontal"
+           />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/fr_out"
+        bihu:layout_heightPercent="40%"
+        android:gravity="center_horizontal"
+        >
+    <Button
+        android:id="@+id/tv_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="30dp"
+       android:text="hahah"
+        android:textSize="30dp"/>
+    <ImageView
+        android:layout_below="@+id/tv_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_def_icon"/>
+    </RelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

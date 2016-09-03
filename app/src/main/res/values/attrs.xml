@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="leftDrawble" format="reference"/>
+        <attr name="rightDrawblw" format="reference"/>
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextShow" format="boolean"/>
+    </declare-styleable>
+</resources>
